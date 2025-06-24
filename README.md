@@ -62,7 +62,7 @@ To run this project on your local machine:
 
 ```bash
 # Clone the repository
-git clone https://github.com/borhan-siddque/tutor-lingo.git
+git clone https://github.com/borhansiddque/tutor-lingo-app.git
 
 # Navigate into the project directory
 cd tutor-lingo
@@ -80,10 +80,6 @@ The app will run at `http://localhost:5173`
 
 ## 📸 Screenshot
 
-![Tutor Lingo Screenshot](https://your-screenshot-link.com/screenshot.png)
+![Tutor Lingo Screenshot](https://i.ibb.co/qLkQHDzQ/tutor-lingo.png)
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
