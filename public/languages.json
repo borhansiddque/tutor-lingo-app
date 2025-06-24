@@ -1,0 +1,11 @@
+[
+  { "name": "English", "icon": "./lang-icons/english.png" },
+  { "name": "Spanish", "icon": "./lang-icons/spanish.png" },
+  { "name": "French", "icon": "./lang-icons/french.png" },
+  { "name": "German", "icon": "./lang-icons/german.png" },
+  { "name": "Italian", "icon": "./lang-icons/italian.png" },
+  { "name": "Chinese", "icon": "./lang-icons/chinese.png" },
+  { "name": "Arabic", "icon": "./lang-icons/arabic.png" },
+  { "name": "Japanese", "icon": "./lang-icons/japanese.png" },
+  { "name": "Portuguese", "icon": "./lang-icons/portuguese.png" }
+]
