@@ -108,7 +108,7 @@ const HowItWorks = () => {
             <span className="text-base-content font-medium">
               Ready to get started?
             </span>
-            <a href="/find-tutors" className="ml-4 btn btn-primary btn-sm">
+            <a href="/find-tutors" className="ml-4 btn bg-rose-700 btn-sm">
               Find Tutors Now
             </a>
           </div>

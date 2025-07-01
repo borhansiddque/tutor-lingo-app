@@ -47,8 +47,8 @@ const FeaturedTutors = () => {
   }
 
   return (
-    <section className="py-14 md:py-18 bg-base-200">
-      <div className="container mx-auto px-4">
+    <section className="py-14 md:py-18 bg-base-200 rounded-2xl">
+      <div className=" mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-base-content mb-4">
             Meet Our Featured Tutors
@@ -61,7 +61,7 @@ const FeaturedTutors = () => {
 
         {tutors.length > 0 ? (
           <>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
               {tutors.map((tutor) => (
                 <div
                   key={tutor._id}
@@ -71,7 +71,7 @@ const FeaturedTutors = () => {
                     <img
                       src={tutor.image}
                       alt={tutor.name}
-                      className="w-full h-64 object-cover"
+                      className="w-full h-50 object-cover"
                       onError={(e) => {
                         e.target.src =
                           "https://via.placeholder.com/300x200?text=No+Image";
