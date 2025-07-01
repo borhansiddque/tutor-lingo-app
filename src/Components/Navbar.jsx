@@ -57,6 +57,21 @@ const Navbar = () => {
           <span>Find Tutors</span>
         </NavLink>
       </li>
+      <li>
+        {" "}
+        <NavLink
+          className={({ isActive }) =>
+            `flex items-center gap-2 font-medium py-1 px-2 rounded-lg transition-all duration-200 hover:bg-rose-100 ${
+              isActive
+                ? "text-white bg-rose-700 shadow-md hover:text-rose-700"
+                : "hover:text-rose-700"
+            }`
+          }
+          to={"/about-us"}
+        >
+          <span>About Us</span>
+        </NavLink>
+      </li>
       {user && (
         <>
           <li>

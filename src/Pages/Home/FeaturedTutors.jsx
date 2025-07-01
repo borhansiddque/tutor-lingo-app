@@ -119,7 +119,7 @@ const FeaturedTutors = () => {
             </div>
 
             <div className="text-center">
-              <Link to="/find-tutors" className="btn btn-outline btn-lg">
+              <Link to="/find-tutors" className="btn border-2 border-white btn-lg hover:border-rose-600 transition-all duration-300">
                 View All Tutors
                 <FaArrowRight className="ml-2" />
               </Link>
