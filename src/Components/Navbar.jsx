@@ -116,11 +116,12 @@ const Navbar = () => {
               }
               to={"/my-booked-tutors"}
             >
-              <span>My Booked Tutors</span>
+              <span>Booked Tutors</span>
             </NavLink>
           </li>
         </>
       )}
+
     </>
   );
   return (
@@ -145,7 +146,7 @@ const Navbar = () => {
           <h3 className="text-2xl text-rose-500 font-semibold">TutorLingo.</h3>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="flex gap-3">{links}</ul>
+          <ul className="flex gap-2">{links}</ul>
         </div>
         <div className="navbar-end gap-4">
           <ThemeToggle></ThemeToggle>

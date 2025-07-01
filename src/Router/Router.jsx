@@ -11,6 +11,7 @@ import Register from "../Pages/Register/Register";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import AboutUs from "../Pages/AboutUs/AboutUs";
+import ContactUs from "../Pages/ContactUs/ContactUs";
 
 let router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ let router = createBrowserRouter([
       {
         path: 'about-us',
         Component: AboutUs
+      },
+      {
+        path: 'contact-us',
+        Component: ContactUs
       },
       {
         path: "find-tutors",

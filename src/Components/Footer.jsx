@@ -32,9 +32,9 @@ const Footer = () => {
         <a className="border-b border-transparent hover:border-rose-700 cursor-pointer">
           About us
         </a>
-        <a className="border-b border-transparent hover:border-rose-700 cursor-pointer">
+        <Link to={'contact-us'} className="border-b border-transparent hover:border-rose-700 cursor-pointer">
           Contact
-        </a>
+        </Link>
       </nav>
       <nav>
         <h6 className="footer-title">Social Media</h6>
