@@ -155,7 +155,7 @@ const Navbar = () => {
           <ThemeToggle></ThemeToggle>
           {user ? (
             <div className="flex gap-2">
-              <NavLink className={"hidden sm:block"}>
+              {/* <NavLink className={"hidden sm:block"}>
                 <button
                   onClick={handleLogOut}
                   className="btn bg-rose-700 hover:bg-rose-600 text-white px-7"
@@ -163,7 +163,7 @@ const Navbar = () => {
                   <FaSignOutAlt className="text-sm" />
                   <span>Logout</span>
                 </button>
-              </NavLink>
+              </NavLink> */}
               <div className="dropdown dropdown-end">
                 <div
                   tabIndex={0}
@@ -192,12 +192,12 @@ const Navbar = () => {
                   <li className="text-sm text-rose-900 text-center font-semibold">
                     {user && user.email}
                   </li>
-                  <li className="block sm:hidden">
+                  <li className="block">
                     <button
                       onClick={handleLogOut}
-                      className="btn bg-rose-700 hover:bg-rose-600 text-white w-full flex items-center gap-2"
+                      className="btn bg-rose-700 hover:bg-rose-600 text-white w-full flex items-center gap-2 border-none text-sm"
                     >
-                      <FaSignOutAlt />
+                      <FaSignOutAlt size={18} />
                       <span>Logout</span>
                     </button>
                   </li>

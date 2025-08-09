@@ -118,7 +118,7 @@ const BannerSection = () => {
             </div>
 
             {/* Background Decoration */}
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-400/20 to-purple-400/20 rounded-2xl transform rotate-3 scale-105 -z-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-rose-400/20 to-rose-400/20 rounded-2xl transform rotate-3 scale-105 -z-10"></div>
           </div>
         </div>
       </div>

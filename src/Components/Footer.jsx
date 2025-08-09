@@ -10,7 +10,7 @@ const Footer = () => {
         <h3 className="text-3xl">
           TutorLingo<span className="text-rose-600">.</span>
         </h3>
-        <p>Trusted by language learners since 2020.</p>
+        <p>Trusted by language learners since { new Date().getFullYear()}</p>
       </aside>
       <nav>
         <h6 className="footer-title">Services</h6>
