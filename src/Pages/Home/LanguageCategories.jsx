@@ -73,7 +73,7 @@ const LanguageCategories = () => {
         </div>
 
         <div className="mt-8">
-          <Link to="/find-tutors" className="btn btn-outline btn-lg">
+          <Link to="/find-tutors" className="btn btn-outline btn-lg border-2 hover:border-rose-600">
             View All Tutors
           </Link>
         </div>

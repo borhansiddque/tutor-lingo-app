@@ -35,7 +35,7 @@ const BannerSection = () => {
                 <FaUsers className="mr-2" />
                 Find Your Tutor
               </Link>
-              <button className="btn btn-outline btn-lg px-8">
+              <button className="btn btn-outline btn-lg px-8 border-2 hover:border-rose-600">
                 <FaPlay className="mr-2" />
                 Watch Demo
               </button>

@@ -19,7 +19,7 @@ const ThemeToggle = () => {
         {/* Sliding circle with icon */}
         <div
           className={`relative z-10 flex h-7 w-7 transform items-center justify-center rounded-full bg-white shadow-lg transition-all duration-300 ease-in-out ${
-            isLight ? "translate-x-0.5" : "translate-x-8"
+            isLight ? "translate-x-0.5" : "translate-x-9"
           }`}
         >
           {/* Sun and Moon icons with smooth transition */}
