@@ -8,7 +8,7 @@ const StudentTestimonials = () => {
     {
       name: "Sarah Lee",
       comment:
-        "TutorLingo completely changed the way I learn languages. My tutor is patient, friendly, and super helpful!",
+        "TutorLingo completely changed the way I learn languages.",
       country: "USA",
     },
     {
@@ -20,7 +20,7 @@ const StudentTestimonials = () => {
     {
       name: "Amina Khan",
       comment:
-        "The tutors are professional and the platform is easy to use. Highly recommend!",
+        "The tutors are professional and the platform is easy to use.",
       country: "UAE",
     },
     {
@@ -59,7 +59,7 @@ const StudentTestimonials = () => {
         >
           {testimonials.map((t, idx) => (
             <SwiperSlide key={idx} className="mb-10">
-              <div className="bg-white p-6 rounded-xl shadow-md h-full flex flex-col justify-between">
+              <div className="bg-white p-6 rounded-xl shadow-md flex flex-col justify-between">
                 <p className="text-gray-700 mb-4">&ldquo;{t.comment}&rdquo;</p>
                 <div className="text-sm font-semibold text-rose-600 mt-4">
                   — {t.name}, {t.country}
