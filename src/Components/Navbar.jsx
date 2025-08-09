@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import ThemeToggle from "./ThemeToggle";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { MdMenu } from "react-icons/md";
 import {
   FaHome,
@@ -121,7 +121,6 @@ const Navbar = () => {
           </li>
         </>
       )}
-
     </>
   );
   return (
@@ -143,7 +142,11 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <h3 className="text-2xl text-rose-500 font-semibold">TutorLingo.</h3>
+          <Link to={"/"}>
+            <h3 className="text-2xl text-rose-500 font-semibold">
+              TutorLingo.
+            </h3>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex gap-2">{links}</ul>

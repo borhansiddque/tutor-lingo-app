@@ -74,7 +74,7 @@ const MyBookedTutors = () => {
   if (loading) {
     return (
       <div className="flex justify-center items-center py-20">
-        <span className="loading loading-spinner loading-lg"></span>
+        <span className="loading loading-spinner loading-lg text-rose-700"></span>
       </div>
     );
   }
